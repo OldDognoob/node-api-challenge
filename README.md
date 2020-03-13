@@ -40,13 +40,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+1.Middleware
+2.Routers
+
 - [ ] Describe Middleware?
+
+Middleware functions are functions that have access to the request object(req)and to the response object(res) and to the next function. Middleware functions can perform the following tasks:
+>Execute any code
+>Make changes to the request and to the response object
+>End the request-response cycle
+>Call the next middleware in the stack
 
 - [ ] Describe a Resource?
 
+Resource can be defined as a piece of data managed by a server, with access to it provided by an API.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+Technically an API returns success codes and provide success messages. With the use of .json() we can implement a simple message to be followed by a simple request or providing an alert, or jsx segment. We can also pass data from the database.
+
 - [ ] How can we partition our application into sub-applications?
+
+Sub-applications provide us with flexibility. We can decide our different business into different sub-apps. We can specify each application settings, choose different view engine and stylesheet middleware. Sub-applications also have a lot of things to share , such as node modules, config files, database models and utilities. Sub-applications helps us to reduce a lot of dirty work and makes developer life easy and happy.!
 
 ## Minimum Viable Product
 
