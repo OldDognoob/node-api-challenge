@@ -21,7 +21,7 @@ server.get("*", (req, res) => {
 });
 
 server.use((req, res) => {
-  res.json("This API is working and active");
+  res.json("This API is UP");
 });
 
 module.exports = server;
